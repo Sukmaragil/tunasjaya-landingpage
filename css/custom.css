@@ -1,0 +1,24 @@
+/* Your custom css code goes here */
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+ li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  
+ul .content li:before {
+    content: "+";
+    padding-right: 5px;
+  }
+
+/* .img-responsive {
+    border-radius: 4px;
+  } */
+
+.probootstrap-card-media img {
+    border-radius: 0;
+  }
